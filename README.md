@@ -71,5 +71,7 @@ impostos deduzidos do salário.
 # Code Smells :bomb:
 - *Long Method*
    - Uso e repetição de estruturas condicionais (ifs e switchs) desnecessariamente, tanto no Menu Principal, quanto no Menu de alteração do empregado.
+   - Utilização do método toString() que acumula bastante linhas de código.
+   - Uso excesivo de variáveis nos métodos e classes.
 - *Duplicate Code*
    - Repetição de laços
