@@ -63,7 +63,7 @@ impostos deduzidos do salário.
 | Titulo                     | Descrição                                                                                                                                        |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Listar Todos os empregados | Retorna todos os empregados que foram cadastrados no sistema , seus nomes, endereços, tipos e os atributos que foram associados a cada um deles. |
-| Ajuda                      | Imprime o código de cada funcionalidade que é possivel fazer no sistema.                                                                         |
+
  
 # Funcionalidades a serem implementadas :wrench:
  
