@@ -74,4 +74,4 @@ impostos deduzidos do salário.
    - Utilização do método toString() que acumula bastante linhas de código.
    - Uso excesivo de variáveis nos métodos e classes.
 - *Duplicate Code*
-   - Repetição de laços
+   - Repetição de laços nas funcionalidades de Lançamento de cartão de ponto e Lançamento de cartão de vendas.
