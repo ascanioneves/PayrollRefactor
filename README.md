@@ -69,6 +69,6 @@ impostos deduzidos do salário.
 | Undo/Redo   | Qualquer transação associada as funcionalidades 1 a 7 deve ser desfeita (undo) e refeita (redo). |
 
 # Code Smells :bomb:
-| Titulo | Descrição                                                                      |
-| ------ | ------------------------------------------------------------------------------ |
-| Long Method   | Uso e repetição de muitas estruturas condicionais (ifs e switchs) desnecessariamente tanto no menu principal quanto no menu de alteração do empregado. |
+- Long Method
+   - Uso e repetição de estruturas condicionais (ifs e switchs) desnecessariamente, tanto no Menu Principal, quanto no Menu de alteração do empregado.
+- 
