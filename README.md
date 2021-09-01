@@ -67,3 +67,5 @@ impostos deduzidos do salário.
 | Titulo | Descrição                                                                      |
 | ------ | ------------------------------------------------------------------------------ |
 | Undo/Redo   | Qualquer transação associada as funcionalidades 1 a 7 deve ser desfeita (undo) e refeita (redo). |
+
+# Code Smells :bomb:
