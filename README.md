@@ -75,3 +75,7 @@ impostos deduzidos do salário.
    - Uso excesivo de variáveis nos métodos e classes.
 - *Duplicate Code*
    - Repetição de laços nas funcionalidades de Lançamento de cartão de ponto e Lançamento de cartão de vendas.
+- *Generative Speculation*
+   - Variáveis que nunca foram utilizadas, exemplo: emp_aux2 e emp_aux3
+   - Métodos Getters e Setters que nunca foram utilizados, exemplo: getSalarioInicial()
+   - Construtores que não foram utilizados.
