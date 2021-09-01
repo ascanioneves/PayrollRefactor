@@ -71,4 +71,5 @@ impostos deduzidos do salário.
 # Code Smells :bomb:
 - *Long Method*
    - Uso e repetição de estruturas condicionais (ifs e switchs) desnecessariamente, tanto no Menu Principal, quanto no Menu de alteração do empregado.
-- 
+- *Duplicate Code*
+   - Repetição de laços
