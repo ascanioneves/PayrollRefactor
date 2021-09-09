@@ -98,7 +98,8 @@ public class Main {
         System.out.println("Informe o ID do empregado para o lancamento do cartao de ponto: ");
         String idEmp = input.nextLine();
         id_aux = idEmp;
-        for (Empregado empregado : empregados) {
+        ArrayList<Empregado> horistaLista = Empregado.getFilteredEmpregados(new FiltroHorista(), empregados);
+        for (Empregado empregado : horistaLista) {
           if (empregado.getId().equals(idEmp)) {
             exists = true;
             System.out.println("Informe o horario de entrada: ");
@@ -137,9 +138,8 @@ public class Main {
         }
       }
       if (state == 6) {
-        Predicate<Empregado> empFiltro = empregado -> empregado.getSindicato() != null;
-        ArrayList<Empregado> sindicatoLista = empregados.stream().filter(empFiltro).
-                collect(Collectors.toCollection(ArrayList::new));
+        //Predicate<Empregado> empFiltro = empregado -> empregado.getSindicato() != null;
+        ArrayList<Empregado> sindicatoLista = Empregado.getFilteredEmpregados(new FiltroSindicato(), empregados);
 
         Boolean exists = false;
         System.out.println("Informe o ID do empregado para lancar a sua taxa de servico: ");

@@ -88,6 +88,15 @@ public abstract class Empregado
   public void setAgenda(Agenda agenda) {
     this.agenda = agenda;
   }
+  public static ArrayList<Empregado> getFilteredEmpregados(FiltroEmpregado interpreter, List<Empregado> empregados){
+    ArrayList<Empregado> filteredEmpregados = new ArrayList<>();
+    for (Empregado Emp : empregados) {
+      if (interpreter.instanciaEmpregado(Emp)) {
+        filteredEmpregados.add(Emp);
+      }
+    }
+    return filteredEmpregados;
+  }
   @Override
     public String toString() 
     {
