@@ -19,9 +19,6 @@ public class Main {
   public static void main(String[] args) {
     int state = 1;
     List<Empregado> empregados = new ArrayList<Empregado>();
-    List<Empregado> emp_aux2 = new ArrayList<Empregado>();
-    List<Empregado> emp_aux3 = new ArrayList<Empregado>();
-
 
     int undo = 0, redo = 0, ult_op = 0;
     String id_aux = "";
@@ -38,7 +35,6 @@ public class Main {
       if (state == 0) {
         break;
       }
-      emp_aux2.clear();
       //copy_emp(empregados, emp_aux2);
       input = new Scanner(System.in);
       input.useLocale(Locale.ENGLISH);
@@ -196,12 +192,6 @@ public class Main {
             if (menuAlteracao == 0) {
               break;
             }
-            emp_aux2.clear();
-            //copy_emp(empregados, emp_aux2);
-            //for (Empregado e : emp_aux2) {
-              //System.out.println(emp_aux2 + "\n");
-            //}
-            //ult_op = menuAlteracao;
             if (menuAlteracao == 1) {
               
               System.out.println("Informe o novo nome: ");
@@ -285,11 +275,6 @@ public class Main {
                 empAtual.getSindicato().setTaxaSindicato(tx);
               }
             }
-            //undo
-            else if (menuAlteracao == 8) {
-              
-            }
-      
           }
         }
       }

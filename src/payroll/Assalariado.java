@@ -41,9 +41,6 @@ public class Assalariado extends Empregado
   public void setSalario(double salario) {
     this.salario = salario;
   }
-  public double getSalarioInicial() {
-    return salario_inicial;
-  }
   public void setSalarioInicial(double salario_inicial) {
     this.salario_inicial = salario_inicial;
   }
