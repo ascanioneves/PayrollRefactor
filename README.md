@@ -81,4 +81,4 @@ impostos deduzidos do salário.
  
 
 # Refactoring
-  [Cheque a alteração](google.com) 
+  [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/e85c76f6deb51d257c60d599c86576d62ed8aff3) 
