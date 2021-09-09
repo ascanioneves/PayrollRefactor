@@ -78,4 +78,7 @@ impostos deduzidos do salário.
 - *Generative Speculation*
    - Variáveis que nunca foram utilizadas, exemplo: emp_aux2 e emp_aux3
    - Métodos Getters e Setters que nunca foram utilizados, exemplo: getSalarioInicial()
-   - Construtores que não foram utilizados.
+ 
+
+# Refactoring
+  [Cheque a alteração](google.com) 
