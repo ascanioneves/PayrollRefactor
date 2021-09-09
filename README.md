@@ -81,4 +81,4 @@ impostos deduzidos do salário.
  
 
 # Refactoring
-  [Alguns métodos getters, setters e variáveis que nunca foram utilizados. Logo, foram removidos na refatoração, cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/e85c76f6deb51d257c60d599c86576d62ed8aff3) 
+  Alguns métodos getters, setters e variáveis que nunca foram utilizados. Logo, foram removidos na refatoração, [cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/e85c76f6deb51d257c60d599c86576d62ed8aff3) 
