@@ -81,6 +81,9 @@ impostos deduzidos do salário.
  
 
 # Refactoring
+- *Interpreter*
+   
+   Aplicação do Design Pattern Interpreter no contexto de filtragem de empregados, especificamente no tocante ao cadastro de sindicato e lançamento de cartão de ponto. [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/846d870953d575cff38f9842092651e878583581)
 - *Remove Generative Speculation*
    
    Alguns métodos getters, setters e variáveis que nunca foram utilizados foram removidos na refatoração. [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/e85c76f6deb51d257c60d599c86576d62ed8aff3) 
