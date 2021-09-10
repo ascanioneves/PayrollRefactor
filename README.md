@@ -80,7 +80,7 @@ impostos deduzidos do salário.
    - Métodos Getters e Setters que nunca foram utilizados, exemplo: getSalarioInicial()
  
 
-# Refactoring
+# Refactoring :broom:
 - *Interpreter*
    
    Aplicação do Design Pattern Interpreter no contexto de filtragem de empregados, especificamente no tocante ao cadastro de sindicato e lançamento de cartão de ponto. [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/846d870953d575cff38f9842092651e878583581)
