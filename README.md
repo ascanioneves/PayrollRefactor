@@ -88,6 +88,6 @@ impostos deduzidos do salário.
    
    Alguns métodos getters, setters e variáveis que nunca foram utilizados foram removidos na refatoração. [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/e85c76f6deb51d257c60d599c86576d62ed8aff3) 
   
-- *AAA*
+- *Move Accumulation to Collecting Parameter*
   
   [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/981186b459f1359d3a4062b1d11d442afc330b5b)
