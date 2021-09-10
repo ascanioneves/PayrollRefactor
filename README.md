@@ -93,4 +93,4 @@ impostos deduzidos do salário.
   Remoção de Duplicate Codes nos loops, especificamente nos loops de busca de empregado por ID. [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/981186b459f1359d3a4062b1d11d442afc330b5b)
   
   
-  [FIM](https://giphy.com/clips/paralympics-proud-tears-of-joy-taic9fMIzxGmj4sDnc)
+  [](https://c.tenor.com/hul-Fidcn1MAAAAC/reaction-victory.gif)
