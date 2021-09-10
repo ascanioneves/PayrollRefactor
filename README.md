@@ -90,4 +90,4 @@ impostos deduzidos do salário.
   
 - *Move Accumulation to Collecting Parameter*
   
-  [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/981186b459f1359d3a4062b1d11d442afc330b5b)
+  Remoção de Duplicate Codes nos loops, especificamente nos loops de busca de empregado por ID. [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/981186b459f1359d3a4062b1d11d442afc330b5b)
