@@ -81,4 +81,6 @@ impostos deduzidos do salário.
  
 
 # Refactoring
-  [Cheque a alteração](google.com) 
+- *Remove Generative Speculation*
+   
+   Alguns métodos getters, setters e variáveis que nunca foram utilizados foram removidos na refatoração. [Cheque a alteração](https://github.com/ascanioneves/PayrollRefactor/commit/e85c76f6deb51d257c60d599c86576d62ed8aff3) 
