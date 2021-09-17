@@ -95,4 +95,3 @@ impostos deduzidos do salário.
   
 
 
-![](https://c.tenor.com/hul-Fidcn1MAAAAC/reaction-victory.gif)
